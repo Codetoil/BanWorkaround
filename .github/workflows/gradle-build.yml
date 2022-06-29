@@ -11,6 +11,8 @@ on:
   release:
     types: [published]
   push:
+    branches-ignore:
+      - 'main'
 
 jobs:
   build:
