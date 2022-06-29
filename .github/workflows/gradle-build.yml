@@ -8,9 +8,11 @@
 name: Gradle Build
 
 on:
-  push:
   release:
     types: [published]
+  push:
+    branches-ignore:
+      - 'none'
 
 jobs:
   build:
