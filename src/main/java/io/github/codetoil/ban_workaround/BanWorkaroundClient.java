@@ -8,7 +8,6 @@ import org.slf4j.LoggerFactory;
 @Environment(net.fabricmc.api.EnvType.CLIENT)
 public class BanWorkaroundClient implements ClientModInitializer
 {
-	@SuppressWarnings("unused")
 	public static final Logger LOGGER = LoggerFactory.getLogger("ban_workaround");
 
 	@Override
