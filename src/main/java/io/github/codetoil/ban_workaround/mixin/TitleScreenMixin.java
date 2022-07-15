@@ -31,7 +31,7 @@ public abstract class TitleScreenMixin extends Screen
 	 */
 	@Overwrite
 	@Nullable
-	private Text method_44692() {
+	private Text getMultiplayerDisabledText() {
 		if (this.client == null) return null;
 		BanDetails banDetails = this.client.getMultiplayerBanDetails();
 
